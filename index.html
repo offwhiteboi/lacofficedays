@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OfficeDays</title>
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(180deg, #f8fafc, #eef2f7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1f2937;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 36px 28px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+      text-align: center;
+      border: 1px solid #e5e7eb;
+    }
+
+    .logo {
+      width: 120px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 10px 0 10px;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+
+    .logo-box {
+      background: linear-gradient(135deg, #06b6d4, #3b82f6);
+      padding: 15px 10px;
+      border-radius: 10px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #06b6d4, #3b82f6);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(59,130,246,0.25);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo-box">
+        <img class="logo" src="https://lac.hu/img/logo_home.png" alt="LAC Logo">
+      </div>
+
+      <h1>OfficeDays</h1>
+
+      <p>
+        Az űrlap jelenleg nem érhető el Teams alkalmazásban.
+        A folytatáshoz nyissa meg böngészőben.
+      </p>
+
+      <button class="btn"
+        onclick="window.open('https://lacholding.sharepoint.com/:l:/s/OfficeDays/JADIkc5_25I4S7d-HExWSJHOASNfhBSZUjcRAv5I432zzKw?nav=OWFmNTk3NGUtYTBkMy00YTUyLTk2MjMtZjdkMDc1ZWEyNjMz', '_blank')">
+        Megnyitás böngészőben
+      </button>
+    </div>
+  </div>
+</body>
+</html>
